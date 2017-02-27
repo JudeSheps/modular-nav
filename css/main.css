@@ -21,3 +21,48 @@ body {
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: #e2e2e2;
+}
+
+h1 {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+.nav .current {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+.nav a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+}
